@@ -257,7 +257,7 @@ uploadButton.addEventListener("click", () => {
     videooo.innerHTML += `              
     <div class="profile">
                   <div class="profile-header">
-                      <img src="https://media.istockphoto.com/id/526947869/vector/man-silhouette-profile-picture.jpg?s=1024x1024&w=is&k=20&c=-_9Bhlpm_k7Ehpm3mbJLMcYNbDQuLQsizLDOY5hbpcs=" alt="Profile Image" />
+                      <img src="https://t4.ftcdn.net/jpg/01/34/51/81/360_F_134518160_5DyP0y6YqXQgG6FdorIvpk7M6CBNrglm.jpg" alt="Profile Image" />
                   </div>
                   <div class="profile-body">
                       <div class="profile-info">
@@ -269,7 +269,7 @@ uploadButton.addEventListener("click", () => {
               
                <div class="info">
                   <span>Company : Google</span>
-                  <span>Position : SDE 1</span>
+                  <span>Position : SDE 3</span>
                   <span>Phone : 9909887899</span>
                   <span>Mail : ${textInput.value.split(' ').join('')}@gmail.com</span>
                   <span>Connect : <i class="bi bi-camera-video-fill"></i></span>
@@ -278,7 +278,7 @@ uploadButton.addEventListener("click", () => {
                       <hr/>
               
                       <div class="my-profile">
-                          <p>Chat        <i class="bi bi-chat-dots-fill"></i></p>
+                          <p>Chat  <a href="chat.html" />  <i class="bi bi-chat-dots-fill"></i></p>
                       </div>
               
                   </div>
