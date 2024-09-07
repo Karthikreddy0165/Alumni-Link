@@ -811,6 +811,7 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: grey;
 }
 
 .hero img {
@@ -2896,7 +2897,6 @@ section,
 
 
 
-
 /* 
 .video-container {
   position: relative;
@@ -2930,3 +2930,129 @@ section,
  .btn-primary :hover{
   font-size: 1.5rem;
  }
+
+
+
+
+
+
+ /* new css */
+
+
+ .profile {
+  width: 300px;
+  font-family: 'Roboto', sans-serif;
+}
+.profile-header{
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+  /* background: rgb(13, 104, 231); */
+  /* background: url("https://64.media.tumblr.com/ad7c23f923e144352007a7de049c98ac/92afd8a19abae2b8-a4/s640x960/ddc63bf27f5d84ec18e39bfba7d5e2ae15b2ddfb.png"); */
+  background-color: black;
+  background-position: left;
+  background-size: cover;
+}
+.profile img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  position: relative;
+  top: 25px;
+  left : 37%;
+}
+.profile-body {
+  background-color: rgb(32, 32, 32);
+  border-radius: 0px 0px 15px 15px;
+}
+.profile-info {
+  margin: 0 30px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.profile-info h1 {
+  font-size: 23px;
+  margin-top: 0;
+  color: 	#F5F8FA;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+.profile-info h2 {
+  font-size: 15px;
+  color:  #657786;
+  margin: 5px 0px;
+}
+.profile-info p{
+  font-size: 13px;
+  color: #AAB8C2;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #657786;
+  /* left: 37%; */
+}
+
+.stat-box {
+  padding: 5px 0;
+  display: flex;
+}
+
+.stat-box div {
+  width: 100%;
+  text-align: center;
+}
+
+.stat-box h3 {
+  color: #F5F8FA;
+  margin-bottom: 0;
+}
+
+.stat-box p {
+  color: #AAB8C2;
+  margin-top: 8px;
+}
+
+
+.my-profile {
+  padding: 10px 0px;
+  text-align: center;
+}
+.my-profile p{
+  color: white;
+}
+
+.follow-profile{
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.follow-profile img{
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+.profile-header{
+  text-align: left;
+  border-radius: 12px 12px 0 0;
+  background-color: rgb(32, 32, 32);
+  /* background: rgb(13, 104, 231);
+  background: url("https://64.media.tumblr.com/ad7c23f923e144352007a7de049c98ac/92afd8a19abae2b8-a4/s640x960/ddc63bf27f5d84ec18e39bfba7d5e2ae15b2ddfb.png"); */
+  background-position: center;
+  background-size: cover;
+}
+
+.info{
+  display:flex;
+  flex-direction: column;
+  padding-left: 25%;
+}
+/* *{
+  background-color: grey;
+} */
