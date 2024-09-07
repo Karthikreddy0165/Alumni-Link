@@ -248,8 +248,7 @@ window.addEventListener("load", aosInit);
 //   const database = getDatabase(app);
 //   const youtbueInDB = ref(database, "youtube");
 
-  const textInput = document.querySelector(".form-control"); // Assuming you have an input field with class "form-control"
-  console.log(textInput)
+  const textInput = document.querySelector(".form-control"); // Assuming you have an input field with class "form-control
   const uploadButton = document.querySelector(".btn-primary");
 const profile = "abc";
 uploadButton.addEventListener("click", () => {
@@ -263,7 +262,7 @@ uploadButton.addEventListener("click", () => {
                   <div class="profile-body">
                       <div class="profile-info">
                           <h1>${textInput.value}</h1>
-                          <h2>@pintusingh</h1>
+                          <h2>@${textInput.value.split(' ').join('').toLowerCase()}</h1>
                           <p>Category : CSE</p>
                       </div>
                       <hr/>
@@ -272,7 +271,7 @@ uploadButton.addEventListener("click", () => {
                   <span>Company : Google</span>
                   <span>Position : SDE 1</span>
                   <span>Phone : 9909887899</span>
-                  <span>Mail : pintu@gmail.com</span>
+                  <span>Mail : ${textInput.value.split(' ').join('')}@gmail.com</span>
                   <span>Connect : <i class="bi bi-camera-video-fill"></i></span>
                 
                </div>
