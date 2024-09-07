@@ -1,2 +1,2 @@
 # Super Senior Website 
-# visit at https://karthikreddy0165.github.io/hackthon/
+# visit at https://alumni-link-eight.vercel.app/
